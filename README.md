@@ -54,7 +54,7 @@ The images captured by the left, right and center camera were used for training 
 
 #### 1. Solution Design Approach
 
-I got inspiration for using the NVIDIA model from the [tips]((https://carnd-forums.udacity.com/questions/26214464/behavioral-cloning-cheatsheet) posted by Paul Heraty at the Udacity forums. Given the success of the model in driving an actual car further convinced me.
+I got inspiration for using the NVIDIA model from the [tips](https://carnd-forums.udacity.com/questions/26214464/behavioral-cloning-cheatsheet) posted by Paul Heraty at the Udacity forums. Given the success of the model in driving an actual car further convinced me.
 
 The original model, after implementation, performed very well on the training data set but had high MSE for the validation set, which implied that the model was overfitting.
 
