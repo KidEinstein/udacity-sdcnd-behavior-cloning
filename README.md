@@ -73,7 +73,7 @@ To make the training job faster, normalization and cropping was moved to the GPU
 
 The final model architecture was largely the NVIDIA model except the dropout layer added after the convolutions. The NVIDIA model is show below for reference.
 
-[NVIDIA Model](/nvidia_model.png?raw=true)
+![NVIDIA Model](/nvidia_model.png?raw=true)
 
 #### 3. Creation of the Training Set & Training Process
 
