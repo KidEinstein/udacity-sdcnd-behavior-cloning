@@ -1,16 +1,6 @@
 # **Behavioral Cloning Project** 
 ---
 
-[//]: # (Image References)
-
-[image1]: ./examples/placeholder.png "Model Visualization"
-[image2]: ./examples/placeholder.png "Grayscaling"
-[image3]: ./examples/placeholder_small.png "Recovery Image"
-[image4]: ./examples/placeholder_small.png "Recovery Image"
-[image5]: ./examples/placeholder_small.png "Recovery Image"
-[image6]: ./examples/placeholder_small.png "Normal Image"
-[image7]: ./examples/placeholder_small.png "Flipped Image"
-
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.  
 
@@ -83,7 +73,7 @@ To make the training job faster, normalization and cropping was moved to the GPU
 
 The final model architecture was largely the NVIDIA model except the dropout layer added after the convolutions. The NVIDIA model is show below for reference.
 
-
+[NVIDIA Model](/nvidia_model.png?raw=true)
 
 #### 3. Creation of the Training Set & Training Process
 
