@@ -94,8 +94,7 @@ Car approaching left turn
 ![Car turning](/images/car_right.jpg)
 <br>
 Car turning left
-<br>
-</p>
+
 The data for the model was augmented with the left and right camera images which made the model learn how to recover if the car is drifting to the side of the road.
 
 The total recorded data consisted of 3479 log entries, resulting in 10437 images. The data was shuffled and split into an 80:20 ratio for the training and validation set respectively. 
