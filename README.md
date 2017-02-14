@@ -87,11 +87,11 @@ Here are a few images from the dataset.
 <br>
 Car driving straight
 <br>
-![Car approaching turn](/images/car_approaching_right.jpg)
+![Car approaching turn](/images/car_approaching_left.jpg)
 <br>
 Car approaching left turn
 <br>
-![Car turning](/images/car_right.jpg)
+![Car turning](/images/car_left.jpg)
 <br>
 Car turning left
 
