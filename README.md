@@ -80,6 +80,22 @@ The final model architecture was largely the NVIDIA model except the dropout lay
 
 The data for the training was primarily obtained by driving in the center of the track. Recovery data recorded did not help the model and was discarded, given the limitations mentioned above.
 
+Here are a few images from the dataset.
+
+<p align="center">
+![Car straight](/images/car_straight.jpg)
+<br>
+Car driving straight
+<br>
+![Car approaching turn](/images/car_approaching_right.jpg)
+<br>
+Car approaching left turn
+<br>
+![Car turning](/images/car_right.jpg)
+<br>
+Car turning left
+<br>
+</p>
 The data for the model was augmented with the left and right camera images which made the model learn how to recover if the car is drifting to the side of the road.
 
 The total recorded data consisted of 3479 log entries, resulting in 10437 images. The data was shuffled and split into an 80:20 ratio for the training and validation set respectively. 
